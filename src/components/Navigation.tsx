@@ -23,17 +23,11 @@ export const Navigation = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/file/d/1pvM7WGFx-XOFB4FcuPEoQom9jWQAgVFU/view?usp=sharing"; // Direct download link format
-
+      "https://drive.google.com/uc?export=download&id=1pvM7WGFx-XOFB4FcuPEoQom9jWQAgVFU";
+    link.download = "Prateek_Sethia_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-
-    // <a
-    //   href="https://drive.google.com/file/d/1pvM7WGFx-XOFB4FcuPEoQom9jWQAgVFU/view?usp=sharing"
-    //   download
-    //   className="primary-btn mt-6 inline-flex items-center"
-    // ></a>;
   };
 
   return (
