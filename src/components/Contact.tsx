@@ -17,7 +17,7 @@ export const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const userData = {
-      access_key: "193bf89b-ed17-4fda-a6f3-61e02eab4972", // Replace with your actual Web3Forms access key
+      access_key: "1d0553d3-fa16-4609-bbdc-de51f9713ff2", // Replace with your actual Web3Forms access key
       name: formData.name,
       email: formData.email,
       message: formData.message,
