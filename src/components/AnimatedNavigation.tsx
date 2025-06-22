@@ -41,7 +41,7 @@ export const AnimatedNavigation = () => {
 
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf";
+    link.href = "https://drive.google.com/uc?export=download&id=1pvM7WGFx-XOFB4FcuPEoQom9jWQAgVFU";
     link.download = "Prateek_Sethia_Resume.pdf";
     document.body.appendChild(link);
     link.click();
